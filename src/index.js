@@ -12,7 +12,7 @@ const genDiff = (filepath1, filepath2) => {
   const res = compareObjects(object1, object2);
   const str = format(res);
 
-  console.log(str);
+  return str;
 };
 
 export default genDiff;
