@@ -1,6 +1,6 @@
 const format = (obj) => obj
   .reduce((acc, item) => {
-    switch(true) {
+    switch (true) {
       case item.type === 'deleted':
         acc += `- ${item.name}: ${item.value}\n`;
         break;
