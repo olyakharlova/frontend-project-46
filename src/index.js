@@ -1,4 +1,4 @@
-import { readFile, getExtension } from './reading.js';
+import { readFile } from './reading.js';
 import compareObjects from './compare.js';
 import format from './formatting.js';
 
