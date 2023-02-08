@@ -10,3 +10,6 @@ Generate Difference project on hexlet.
 #### Demonstration
 Running the gendiff command comparing 2 json files: 
 [![asciicast](https://asciinema.org/a/PZfOaSeVxle1cZ6ts5BbXNNpP.svg)](https://asciinema.org/a/PZfOaSeVxle1cZ6ts5BbXNNpP)
+
+Gendiff command with 2 yml files:
+[![asciicast](https://asciinema.org/a/P52Z4rPdPuTApFCkK3MpVMZ5h.svg)]( https://asciinema.org/a/P52Z4rPdPuTApFCkK3MpVMZ5h)
