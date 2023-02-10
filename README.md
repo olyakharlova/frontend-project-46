@@ -1,5 +1,5 @@
 # second frontend project
-'Generate Difference' project.
+## 'Generate Difference' project.
 
 [![Actions Status](https://github.com/olyakharlova/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/olyakharlova/frontend-project-46/actions)
 
@@ -19,12 +19,15 @@ make install
 gendiff -h
 ```
 
-#### Demonstration
+## demonstration
+
 comparing 2 plain json files: 
 [![asciicast](https://asciinema.org/a/PZfOaSeVxle1cZ6ts5BbXNNpP.svg)](https://asciinema.org/a/PZfOaSeVxle1cZ6ts5BbXNNpP)
 
+
 comparing 2 plain yml files:
 [![asciicast](https://asciinema.org/a/P52Z4rPdPuTApFCkK3MpVMZ5h.svg)](https://asciinema.org/a/P52Z4rPdPuTApFCkK3MpVMZ5h)
+
 
 comparing 2 nested json files:
 [![asciicast](https://asciinema.org/a/RaIO4Pi3SPHBCbhRWvqLuCB7V.svg)](https://asciinema.org/a/RaIO4Pi3SPHBCbhRWvqLuCB7V)
