@@ -25,3 +25,10 @@ test('nested files, plain format', () => {
   const nestedJSON2 = getFixturePath('nestedFile2.json');
   expect(genDiff(nestedJSON1, nestedJSON2, 'plain')).toEqual(res);
 });
+
+test('nested files. json format', () => {
+  const res = readFile(getFixturePath('json.txt'));
+  const nestedJSON1 = getFixturePath('nestedFile1.json');
+  const nestedJSON2 = getFixturePath('nestedFile2.json');
+  expect(genDiff(nestedJSON1, nestedJSON2, 'json')).toEqual(res);
+});
