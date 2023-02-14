@@ -29,5 +29,9 @@ comparing 2 plain yml files:
 [![asciicast](https://asciinema.org/a/P52Z4rPdPuTApFCkK3MpVMZ5h.svg)](https://asciinema.org/a/P52Z4rPdPuTApFCkK3MpVMZ5h)
 
 
-comparing 2 nested json files:
+comparing 2 nested json files with default 'stylish' format:
 [![asciicast](https://asciinema.org/a/RaIO4Pi3SPHBCbhRWvqLuCB7V.svg)](https://asciinema.org/a/RaIO4Pi3SPHBCbhRWvqLuCB7V)
+
+
+comparing 2 json files with 'plain' format:
+[![asciicast](https://asciinema.org/a/r6nUDymdnODCfMJPKU8blcfvs.svg)](https://asciinema.org/a/r6nUDymdnODCfMJPKU8blcfvs)
