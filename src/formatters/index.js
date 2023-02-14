@@ -8,7 +8,7 @@ const format = (data, formatName) => {
   if (formatName === 'stylish') {
     return stylish(data);
   }
-  return `${JSON.stringify(data)}\n`;
+  return JSON.stringify(data);
 };
 
 export default format;

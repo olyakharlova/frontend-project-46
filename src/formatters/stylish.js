@@ -33,7 +33,7 @@ const stylish = (tree) => {
     });
     return ['{', ...lines, `${indent(depth - 1)}}`].join('\n');
   };
-  return `${format(tree, 1)}\n`;
+  return format(tree, 1);
 };
 
 export default stylish;

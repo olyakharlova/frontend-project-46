@@ -1,6 +1,8 @@
+import { readFileSync } from 'fs';
 import path from 'path';
-import fs from 'fs';
 
 export const getExtension = (filePath) => path.extname(filePath).slice(1);
 
-export const readFile = (filePath) => fs.readFileSync(path.resolve(filePath), 'utf8');
+const getPath = (file) => path.resolve(process.cwd(), file);
+
+export const readFile = (filepath) => readFileSync(getPath(filepath), 'utf-8');

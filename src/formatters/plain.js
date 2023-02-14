@@ -30,7 +30,7 @@ const plain = (obj) => {
           return null;
       }
     }).filter(Boolean).join('\n');
-  return `${format(obj, [])}\n`;
+  return format(obj, []);
 };
 
 export default plain;
